@@ -11,6 +11,36 @@ export default function handler(req, res) {
         "Elton John compared this double album to the Beatles’ White Album, and why not? He was by this point the most consistent hitmaker since the Fab Four, and soon enough he would be recording with John Lennon. Everything about Goodbye Yellow Brick Road was supersonically huge, from the Wagnerian-opera-like combo of “Funeral for a Friend” and “Love Lies Bleeding” to the electric boots and mohair suit of “Bennie and the Jets.” “Saturday Night’s Alright for Fighting” was strutting rock & roll, “Candle in the Wind” paid tribute to Marilyn Monroe (and later, Princess Diana), and the title track harnessed the fantastical imagery of glam to a Gershwin-sweet melody.",
     },
     {
+      Rank: 12,
+      Artist: "Michael Jackson",
+      Album: "Thriller",
+      Cover:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Michael_Jackson_-_Thriller.png/220px-Michael_Jackson_-_Thriller.png",
+      Info: "Epic, 1982",
+      Description:
+        "Michael Jackson towered over the Eighties the way no superstar before or since has dominated an era — not even Elvis or the Beatles. And Thriller is the reason why. Still in his early twenties, the R&B child star of the 1970s had ripened into a Technicolor soul man: a singer, dancer, and songwriter with incomparable crossover instincts.\n \n He and producer Quincy Jones established the something-for-everyone template of Thriller on 1979’s Off the Wall [see No. 36], on which Jackson captures the rare mania of his life — the applause and paranoia, the need for love and the fear of commitment — in a crisp fusion of pop hooks and dance beats. On Thriller, the pair heighten the sheen (the jaunty gloss of “The Girl Is Mine,” with a guest vocal by Paul McCartney), pump up\nthe theater (the horror-movie spectacular “Thriller”), and deepen the funk. With its locomotive cadence and an acrobatic metal-guitar solo by Eddie Van Halen, “Beat It” was arguably the first industrial-disco Number One.\n \n It is hard now to separate Thriller from its commercial stature (Number One for 37 weeks, 33 million copies sold), the nightmarish tabloid celebrity that led to Jackson’s death, and the horrific revelations about him that have surfaced in recent years. But there was a time when we only knew Jackson as the King of Pop. This is it.",
+    },
+    {
+      Rank: 113,
+      Artist: "The Smiths",
+      Album: "The Queen Is Dead",
+      Cover:
+        "https://upload.wikimedia.org/wikipedia/en/e/ed/The-Queen-is-Dead-cover.png",
+      Info: "Sire, 1986",
+      Description:
+        "Morrissey’s maudlin moanings have never been more acidic or self-aware than on the Smiths’ third studio album: “A dreaded sunny day, so let’s go where we’re happy/And I meet you at the cemetery gates,” indeed. Johnny Marr is the sugar to Morrissey’s rock salt, and his layered webs of guitar riffs and arpeggios, often in unconventional tunings, build a shifting but stable platform for Morrissey to croon about the drudgery of employment or being cruelly, cruelly shunned by the world. It’s mope rock with its eye on grandeur: With “Bigmouth Strikes Again,” Marr said, “I was trying to write my ‘Jumpin’ Jack Flash.’”",
+    },
+    {
+      Rank: 264,
+      Artist: "Pink Floyd",
+      Album: "Wish You Were Here",
+      Cover:
+        "https://upload.wikimedia.org/wikipedia/en/a/a4/Pink_Floyd%2C_Wish_You_Were_Here_%281975%29.png",
+      Info: "Columbia, 1975",
+      Description:
+        "For the follow-up to Dark Side of the Moon, Pink Floyd got even darker, exploring their main themes of lunacy and alienation. The poignant title ballad is a lament for their ex-bandmate Syd Barrett, one of the Sixties’ saddest acid casualties. They pay tribute in “Shine On You Crazy Diamond,” a 26-minute, nine-part suite that both opens and closes the album, with David Gilmour’s elegiac guitar. They also skewer the music business in “Have a Cigar” and “Welcome to the Machine.”",
+    },
+    {
       Rank: 147,
       Artist: "Jeff Buckley",
       Album: "Grace",
@@ -150,16 +180,6 @@ export default function handler(req, res) {
         "The third Velvet Underground album doesn’t have any songs about S&M or drug deals, and there’s no wailing feedback. But quieter beauty was just as revelatory. Lou Reed sang poignant folk-rock tunes that describe loss (“Pale Blue Eyes”) or spiritual thirst (“Jesus”). And because the Velvets liked it when people danced at their shows, there are two great uptempo numbers, “Beginning to See the Light” and “What Goes On,” where Reed and Sterling Morrison entwine their guitar licks and sustain a joyful minimalist groove that creates a blueprint for generations of bands, including everyone from the Modern Lovers to the Feelies to Parquet Courts.",
     },
     {
-      Rank: 12,
-      Artist: "Michael Jackson",
-      Album: "Thriller",
-      Cover:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Michael_Jackson_-_Thriller.png/220px-Michael_Jackson_-_Thriller.png",
-      Info: "Epic, 1982",
-      Description:
-        "Michael Jackson towered over the Eighties the way no superstar before or since has dominated an era — not even Elvis or the Beatles. And Thriller is the reason why. Still in his early twenties, the R&B child star of the 1970s had ripened into a Technicolor soul man: a singer, dancer, and songwriter with incomparable crossover instincts.\n \n He and producer Quincy Jones established the something-for-everyone template of Thriller on 1979’s Off the Wall [see No. 36], on which Jackson captures the rare mania of his life — the applause and paranoia, the need for love and the fear of commitment — in a crisp fusion of pop hooks and dance beats. On Thriller, the pair heighten the sheen (the jaunty gloss of “The Girl Is Mine,” with a guest vocal by Paul McCartney), pump up\nthe theater (the horror-movie spectacular “Thriller”), and deepen the funk. With its locomotive cadence and an acrobatic metal-guitar solo by Eddie Van Halen, “Beat It” was arguably the first industrial-disco Number One.\n \n It is hard now to separate Thriller from its commercial stature (Number One for 37 weeks, 33 million copies sold), the nightmarish tabloid celebrity that led to Jackson’s death, and the horrific revelations about him that have surfaced in recent years. But there was a time when we only knew Jackson as the King of Pop. This is it.",
-    },
-    {
       Rank: 314,
       Artist: "Aaliyah",
       Album: "One in a Million",
@@ -247,16 +267,6 @@ export default function handler(req, res) {
       Info: "Tamla/Motown, 1973",
       Description:
         "Indisputably the greatest black vocal group of the modern era, the Temptations embodied Motown, channeling unique individual voices and talents into pristine hits and tight, tuxedoed choreography. This three-album set features masterpiece after masterpiece of chugging, gospel-tinged soul, including “My Girl,” “I Can’t Get Next to You,” and “I Wish It Would Rain,” and later, psychedelic-soul adventures like “Cloud Nine” and the gritty message-song masterpiece “Ball of Confusion.”",
-    },
-    {
-      Rank: 113,
-      Artist: "The Smiths",
-      Album: "The Queen Is Dead",
-      Cover:
-        "https://upload.wikimedia.org/wikipedia/en/e/ed/The-Queen-is-Dead-cover.png",
-      Info: "Sire, 1986",
-      Description:
-        "Morrissey’s maudlin moanings have never been more acidic or self-aware than on the Smiths’ third studio album: “A dreaded sunny day, so let’s go where we’re happy/And I meet you at the cemetery gates,” indeed. Johnny Marr is the sugar to Morrissey’s rock salt, and his layered webs of guitar riffs and arpeggios, often in unconventional tunings, build a shifting but stable platform for Morrissey to croon about the drudgery of employment or being cruelly, cruelly shunned by the world. It’s mope rock with its eye on grandeur: With “Bigmouth Strikes Again,” Marr said, “I was trying to write my ‘Jumpin’ Jack Flash.’”",
     },
     {
       Rank: 106,
@@ -790,16 +800,6 @@ export default function handler(req, res) {
       Info: "Philles, 1964",
       Description:
         "More a Spanish Harlem street gang than a girl group, the Ronettes were pop goddesses dressed as Catholic schoolgirls gone to hell and back. Phil Spector builds his Wall of Sound as his teen protégée (and future wife) Ronnie Spector belts “Be My Baby” and “Walking in the Rain,” while songs like “I Wonder” and “Baby, I Love You” ache with hope for a perfect love that always seems to be impossibly ideal and just within arm’s reach.",
-    },
-    {
-      Rank: 264,
-      Artist: "Pink Floyd",
-      Album: "Wish You Were Here",
-      Cover:
-        "https://upload.wikimedia.org/wikipedia/en/a/a4/Pink_Floyd%2C_Wish_You_Were_Here_%281975%29.png",
-      Info: "Columbia, 1975",
-      Description:
-        "For the follow-up to Dark Side of the Moon, Pink Floyd got even darker, exploring their main themes of lunacy and alienation. The poignant title ballad is a lament for their ex-bandmate Syd Barrett, one of the Sixties’ saddest acid casualties. They pay tribute in “Shine On You Crazy Diamond,” a 26-minute, nine-part suite that both opens and closes the album, with David Gilmour’s elegiac guitar. They also skewer the music business in “Have a Cigar” and “Welcome to the Machine.”",
     },
     {
       Rank: 32,
