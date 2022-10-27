@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="flex flex-col-reverse justify-center items-center md:gap-2 md:flex-row md:justify-between">
+    <div className="flex flex-col-reverse justify-center items-center mx-12 md:gap-2 md:flex-row md:justify-between">
       <Link href="/" className="flex items-baseline">
         <h1 className="text-6xl font-extrabold">Listen to</h1>
         <p className="text-sm font-extrabold">.day</p>
