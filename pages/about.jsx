@@ -33,7 +33,9 @@ const about = () => {
               Vercel
             </Link>
             . Check out the&nbsp;
-            <Link href="https://github.com" className="text-sky-500">
+            <Link
+              href="https://github.com/AndrewH06/listento.day"
+              className="text-sky-500">
               GitHub
             </Link>
             !
