@@ -7,11 +7,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="relative flex flex-col bg-neutral-50 text-gray-800 min-h-screen items-center gap-8 pt-8 sm:pt-12">
       <Head>
-        <title>Listen To</title>
+        <title>Listen Today</title>
         <meta
           name="description"
           content="Every day a new album! Powered by NextJs, Vercel, Spotify API, and Tailwind CSS"
         />
+        <meta property="og:image" content="/recordplayer.png" />
         <link rel="icon" href="/vinyl.png" />
       </Head>
       <div className="flex flex-col gap-8 w-full min-h-screen max-w-[1080px] mx-8 sm:mx-24 md:mx-32">
