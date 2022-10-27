@@ -13,8 +13,8 @@ const Main = () => {
 
   useEffect(() => {
     const now = new Date().getTime();
-    const start = 1666940400000;
-    const diff = now - 1666854000000;
+    const start = 1666854000000;
+    const diff = now - start;
     setCount(Math.floor(diff / (1000 * 3600 * 24)));
   }, []);
 
