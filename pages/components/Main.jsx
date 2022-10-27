@@ -27,6 +27,10 @@ const Main = () => {
 
   return (
     <div className="flex flex-col gap-2 items-center md:mt-6">
+      <Head>
+        <meta property="og:title" content="Listen Today" />
+        <meta property="og:image" content={data[count].Cover} />
+      </Head>
       <div>
         <Image
           src={data[count].Cover}

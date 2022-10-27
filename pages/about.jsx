@@ -3,6 +3,9 @@ import Link from "next/link";
 const about = () => {
   return (
     <>
+      <Head>
+        <meta property="og:title" content="About" />
+      </Head>
       <main className="flex flex-col gap-12 items-center max-w-[1080px] mx-8 md:mt-12 text-lg">
         <div className="flex flex-col text-center gap-2">
           <h3 className="font-bold text-2xl">The Music</h3>
