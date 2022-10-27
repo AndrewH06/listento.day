@@ -8,7 +8,7 @@ const Header = () => {
         <h1 className="text-6xl font-extrabold">Listen to</h1>
         <p className="text-sm font-extrabold">.day</p>
       </Link>
-      <div className="flex w-[312px] mb-10 md:mb-0 justify-between items-center md:w-[108px] md:gap-8 md:justify-end">
+      <div className="flex w-[312px] mb-4 md:mb-0 justify-between items-center md:w-[108px] md:gap-8 md:justify-end">
         <Link href="/about" className="font-semibold hover:text-gray-600">
           About
         </Link>

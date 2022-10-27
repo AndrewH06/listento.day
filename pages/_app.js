@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:image" content="/recordplayer.png" />
         <link rel="icon" href="/vinyl.png" />
       </Head>
-      <div className="flex flex-col gap-8 w-full min-h-screen max-w-[1080px] mx-8 sm:mx-24 md:mx-32">
+      <div className="flex flex-col gap-6 md:gap-2 w-full min-h-screen max-w-[1080px] mx-8 sm:mx-24 md:mx-32">
         <header>
           <Header />
         </header>
