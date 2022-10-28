@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -24,6 +25,7 @@ function MyApp({ Component, pageProps }) {
       <footer className="relative bottom-0 w-full bg-white">
         <Footer />
       </footer>
+      <Analytics />
     </div>
   );
 }
