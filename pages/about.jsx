@@ -29,7 +29,7 @@ const about = () => {
           <p className="max-w-[500px]">
             The application is built on&nbsp;
             <Link href="https://nextjs.org" className="text-sky-500">
-              NextJs 14
+              NextJs
             </Link>
             . It is created using React JS and styled with&nbsp;
             <Link href="https://tailwindcss.com" className="text-sky-500">
