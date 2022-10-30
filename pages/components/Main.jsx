@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { useEffect, useState } from "react";
 
@@ -28,13 +29,15 @@ const Main = () => {
   return (
     <div className="flex flex-col gap-2 items-center md:mt-6">
       <div>
-        <Image
-          src={data[count].Cover}
-          width="350"
-          height="350"
-          alt={data[count].Album + ` cover`}
-          className="rounded-lg w-[300px] md:w-[350px]"
-        />
+        <Link href={data[count].link} target="_blank">
+          <Image
+            src={data[count].image}
+            width="350"
+            height="350"
+            alt={data[count].Album + ` cover`}
+            className="rounded-lg w-[300px] md:w-[350px]"
+          />
+        </Link>
       </div>
       <div className="flex flex-col gap-4 text-center max-w-[400px] mx-8">
         <div className="flex flex-col items-center">
