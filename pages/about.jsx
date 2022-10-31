@@ -18,7 +18,7 @@ const about = () => {
             <Link
               href="https://www.rollingstone.com/music/music-lists/best-albums-of-all-time-1062063/"
               className="text-sky-500">
-              Rolling Stones The 500 Greatest Albums of All Time (2020)
+              Rolling Stone: The 500 Greatest Albums of All Time (2020)
             </Link>
             &nbsp;list. Each ranking, title, and description is based on the
             information in this article.
