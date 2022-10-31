@@ -43,7 +43,11 @@ const Main = () => {
         <div className="flex flex-col items-center">
           <div className="flex items-baseline gap-1">
             <p className="text-xs font-light">{data[count].Rank}</p>
-            <h4 className="font-extrabold text-3xl">{data[count].Album}</h4>
+            <Link href={data[count].link} target="_blank">
+              <h4 className="font-extrabold text-3xl hover:text-gray-600">
+                {data[count].Album}
+              </h4>
+            </Link>
           </div>
           <h4 className="text-xl">{data[count].Artist}</h4>
         </div>
