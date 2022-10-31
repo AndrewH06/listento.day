@@ -17,6 +17,7 @@ const about = () => {
             All album data is pulled from the&nbsp;
             <Link
               href="https://www.rollingstone.com/music/music-lists/best-albums-of-all-time-1062063/"
+              target="_blank"
               className="text-sky-500">
               Rolling Stones The 500 Greatest Albums of All Time (2020)
             </Link>
@@ -28,20 +29,30 @@ const about = () => {
           <h3 className="font-bold text-2xl">The Technical</h3>
           <p className="max-w-[500px]">
             The application is built on&nbsp;
-            <Link href="https://nextjs.org" className="text-sky-500">
+            <Link
+              href="https://nextjs.org"
+              target="_blank"
+              className="text-sky-500">
               NextJs
             </Link>
             . It is created using React JS and styled with&nbsp;
-            <Link href="https://tailwindcss.com" className="text-sky-500">
+            <Link
+              href="https://tailwindcss.com"
+              target="_blank"
+              className="text-sky-500">
               Tailwind Css
             </Link>
             . The site is hosted on&nbsp;
-            <Link href="https://vercel.com/dashboard" className="text-sky-500">
+            <Link
+              href="https://vercel.com/dashboard"
+              target="_blank"
+              className="text-sky-500">
               Vercel
             </Link>
             . Check out the&nbsp;
             <Link
               href="https://github.com/AndrewH06/listento.day"
+              target="_blank"
               className="text-sky-500">
               GitHub
             </Link>

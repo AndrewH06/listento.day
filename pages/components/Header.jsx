@@ -12,7 +12,7 @@ const Header = () => {
         <Link href="/about" className="font-semibold hover:text-gray-600">
           About
         </Link>
-        <Link href="https://github.com/AndrewH06/listento.day">
+        <Link href="https://github.com/AndrewH06/listento.day" target="_blank">
           <Image src="/github.svg" height="30" width="30" className="hover" />
         </Link>
       </div>
