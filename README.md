@@ -1,4 +1,4 @@
-# (ListenTo.Day)[https://listento.day]
+# [ListenTo.Day](https://listento.day)
 
 A new album every day.
 
