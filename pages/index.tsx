@@ -2,8 +2,12 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Main from "./components/Main";
+import { NextPage } from "next";
+import axios from "axios";
+import { useQuery } from "@tanstack/react-query";
+import { useEffect, useState } from "react";
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <>
       <Head>
@@ -15,4 +19,6 @@ export default function Home() {
       </main>
     </>
   );
-}
+};
+
+export default Home;
