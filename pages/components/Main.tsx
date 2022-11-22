@@ -19,7 +19,7 @@ const Main: FC = () => {
 
   useEffect(() => {
     const now = new Date().getTime();
-    const start = 1666832400000;
+    const start = 1666857600000;
     const diff = now - start;
     setCount(Math.floor(diff / (1000 * 3600 * 24)));
   }, []);
