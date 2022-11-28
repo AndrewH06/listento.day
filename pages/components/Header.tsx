@@ -27,7 +27,7 @@ const Header: FC = () => {
       <div className="flex mb-4 float-right md:mb-0 justify-between items-center md:gap-8 md:justify-end">
         <Link
           href="/dashboard"
-          className="text-lg font-semibold text-gray-600 hover:text-gray-500">
+          className="text-lg font-semibold text-gray-600 transition-all hover:text-gray-500">
           My Listens
         </Link>
         {session ? <Account user={session.user} /> : <LoginButton />}
@@ -85,7 +85,7 @@ const Account: FC<AccountProps> = (props): JSX.Element => {
                   onClick={() => {
                     signOut();
                   }}
-                  className="text-red-400 py-1 flex gap-2 hover:bg-gray-100 hover:cursor-pointer w-full rounded-md items-center justify-center">
+                  className="text-red-400 py-1 flex gap-2 transition-all hover:bg-gray-100 hover:cursor-pointer w-full rounded-md items-center justify-center">
                   Logout <HiOutlineLogout className="text-xl" />
                 </button>
               )}
