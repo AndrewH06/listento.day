@@ -22,6 +22,8 @@ const Modal = ({ data }: { data: Album }): JSX.Element => {
     setIsOpen(false);
   };
 
+  if (!data) return <div>Error</div>;
+
   return (
     <>
       <div className="inset-0 flex items-center justify-center">
